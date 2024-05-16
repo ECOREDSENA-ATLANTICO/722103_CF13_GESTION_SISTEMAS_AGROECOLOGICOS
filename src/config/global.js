@@ -1,9 +1,10 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
-    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
+    componenteFormativo: 'Principios agroecológicos para la siembra',
+    descripcionCurso:
+      'En el proceso de siembra se aplican técnicas y tipos, principalmente la siembra directa e indirecta, donde es importante el marco de plantación y trazado el cual varía de acuerdo al cultivo y determina la separación o distancia requerida entre las plantas para su desarrollo, crecimiento y manejo ecológico de plagas y enfermedades, por medio de estrategias de control.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
+    fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.svg'),
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
@@ -31,13 +32,23 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Técnicas de siembra',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Siembra directa',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Trasplante o siembra indirecta',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo: 'Tipos de trazado',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +56,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Manejo Ecológico de Plagas y Enfermedades (MEPE) en siembra',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Prácticas de manejo',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Criterios de aplicación',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Tecnologías para la siembra',
         desarrolloContenidos: true,
       },
     ],
@@ -102,32 +125,127 @@ export default {
   },
   complementario: [
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      link: 'https://www.google.com/',
+      tema: '1. Técnicas de siembra',
+      referencia:
+        'Bravo, C., Lozano, Z., Hernández-Hernández, R. M., Cánchica, H. & González, I. (2008). Siembra directa como alternativa agroecológica para la transición hacia la sostenibilidad de las sabanas. Acta biológica venezuelica, 28(1), 15-28. ',
+      tipo: 'Artículo',
+      descarga: '/downloads/2008-Siembradirecta-BravoActaBiolVen28nuevo.pdf',
     },
     {
-      tema: '',
-      referencia: '',
-      tipo: '',
-      descarga: '/downloads/prueba.pdf',
+      tema: '2. Manejo ecológico de plagas y enfermedades (MEPE)',
+      referencia:
+        'Torres, L., & Ríos, R. (2007). Formulación y desarrollo del programa de manejo integral de plagas y enfermedades (MIPE) para el cumplimiento de los niveles 1 y 2 del código de conducta flor verde en el cultivo de flores San Agustín SACI (Funza-Cundinamarca)',
+      tipo: 'Artículo',
+      descarga: '/downloads/viewcontent.cgi.pdf',
+    },
+    {
+      tema: '3.Tecnologías para la siembra',
+      referencia:
+        'García, E. & Flego, F. (2008). Agricultura de precisión. Revista Ciencia y Tecnología, 8, 99-116.',
+      tipo: 'Artículo',
+      descarga: '/downloads/cartilla-hortalizas-ICA.pdf',
+    },
+    {
+      tema: '3.Tecnologías para la siembra',
+      referencia:
+        'Hernández, N., Soto, F. & Caballero, A. (2009). Modelos de simulación de cultivos: Características y usos. Cultivos Tropicales, 30(1), 73-82.',
+      tipo: 'Artículo',
+      descarga: '/downloads/193217899013.pdf',
+    },
+    {
+      tema: '3.Tecnologías para la siembra',
+      referencia:
+        'Unión Europea e IICA. (2016). Modelos de simulación y herramientas de modelaje',
+      tipo: 'Artículo',
+      descarga: '/downloads/FF6B5A49A08D365BFA8870B82B1C25B2.pdf',
     },
   ],
   glosario: [
     {
-      termino: 'Término',
-      significado: 'Texto de la definición',
+      termino: 'Agroquímicos',
+      significado:
+        'productos químicos empleados para prevenir, destruir y controlar plagas y enfermedades (herbicidas, fungicidas, insecticidas, etc.).',
     },
     {
-      termino: '<em>Término con extranjerismo</em>',
-      significado: 'Definición',
+      termino: 'Control de plagas y enfermedades',
+      significado:
+        'Conjunto de medidas utilizadas para mantener los cultivos sanos.',
+    },
+    {
+      termino: 'Enfermedad',
+      significado:
+        'Alteración del recurso vegetal causada por agentes de daño que pueden ser microorganismos tales como hongos, bacterias y virus.',
+    },
+    {
+      termino: 'Marco de plantación',
+      significado:
+        'Distancia y distribución requerida entre las plantas a la hora de ser sembradas para su adecuado desarrollo y crecimiento',
+    },
+    {
+      termino: 'Plaga',
+      significado:
+        'Animales, plantas y microorganismos que tienen un efecto negativo, dañan los cultivos y generan pérdidas económicas.',
+    },
+    {
+      termino: 'Siembra',
+      significado:
+        'Proceso por medio del cual se coloca la semilla en la tierra, suelo o medio de cultivo para que germine y obtener una planta nueva.',
+    },
+    {
+      termino: 'Sustrato',
+      significado:
+        'Material distinto al suelo, empleado para el proceso de siembra ya que cumple las mismas funciones que son proporcionar el anclaje de la planta por medio del sistema radicular.',
+    },
+    {
+      termino: 'Trasplante',
+      significado:
+        'Trasladar las plantas que se encuentran en los semilleros al lugar o terreno definitivo donde la planta va a llevar a cabo su ciclo de vida.',
+    },
+    {
+      termino: 'Trazado',
+      significado:
+        'Consiste en determinar el lugar donde se debe sembrar las plantas enfocado a evitar la erosión del suelo.',
+    },
+    {
+      termino: 'Umbral de intervención',
+      significado:
+        'Grado de infestación en el cual debe implementarse una medida de control para evitar que la población de organismos nocivos supere el umbral económico.',
     },
   ],
   referencias: [
     {
-      referencia: '',
-      link: '',
+      referencia:
+        'Altieri, M. A. & Nicholls, C. I. (2018). Manejo ecológico de plagas. Agroecología: ciencia fundamental para el diseño de fincas resilientes a plagas. LEISA. Revista de Agroecología, 34(1), 5-8.',
+    },
+    {
+      referencia:
+        'Baíza Avelar, V. H. (2004). Guía técnica del cultivo del aguacate (No. IICA-F01 44). Ministerio de Agricultura y Ganadería, San Salvador (El Salvador) Programa Nacional de Frutas de El Salvador,) IICA.',
+    },
+    {
+      referencia:
+        'Brechelt, A. (2008). El manejo ecológico de plagas y enfermedades. Red de Acción en Plaguicidas y sus Alternativas para América Latina (RAP-AL). Fundación Agricultura y Medio Ambiente (FAMA). RD.',
+    },
+    {
+      referencia:
+        'Grenón, D. (2007). Agromática: definición y aplicaciones en la empresa agropecuaria. ',
+      link:
+        'https://www.fca.unl.edu.ar/agromatica/RAdA/Agromatica-Definicion.pdf',
+    },
+    {
+      referencia:
+        'Jiménez, E. (2009). Métodos de control de plagas. Universidad Nacional Agraria. ',
+    },
+    {
+      referencia:
+        'Nova Gonzales, G. & Caro Vargas, F. M. (1991). Reforestación de microcuencas: trazados para la siembra. Cartilla 6. Servicio Nacional de Aprendizaje.',
+    },
+    {
+      referencia:
+        'Perrachón, A. J. (2004). Siembra Directa: ¿qué es? Plan AGROPECUARIO, p. 54-57.',
+    },
+    {
+      referencia:
+        'Romero, F. (2004). Manejo integrado de plagas: las bases, los conceptos, su mercantilización. Universidad Autónoma de Chapingo.',
     },
   ],
   creditos: [
@@ -142,8 +260,7 @@ export default {
         {
           nombre: 'Olga Constanza Bermúdez Jaimes',
           cargo: 'Responsable de Línea de Producción',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -153,8 +270,7 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Nombre del rol',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -164,26 +280,22 @@ export default {
         {
           nombre: 'Nombre responsable',
           cargo: 'Diseñador de Contenidos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre responsable',
           cargo: 'Desarrollador Fullstack',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Animador y Producción audiovisual',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Nombre',
           cargo: 'Actividad Didáctica',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
       ],
     },
@@ -193,27 +305,23 @@ export default {
         {
           nombre: 'Luis Gabriel Urueta Alvarez',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Jaime Hernan Tejada',
           cargo: 'Validador de Recursos Educativos Digitales',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Daniel Ricardo Mutis Gómez',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
         },
         {
           nombre: 'Margarita Marcela Medrano',
           cargo: 'Evaluador para contenidos inclusivos y accesibles',
-          centro:
-            'Centro de Servicios de Salud - Regional Antioquia',
-        }
+          centro: 'Centro de Servicios de Salud - Regional Antioquia',
+        },
       ],
     },
   ],
