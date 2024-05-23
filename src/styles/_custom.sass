@@ -20,3 +20,36 @@
 
 .banner-interno__fondo
   background-image: url(../assets/curso/temas/banner_interno.svg) !important
+
+//BACKGROUND Y COLORES DE CONTENIDOS//
+.bgr
+  background-color: #FFFBEC
+  &_2
+    background-color: #FFE9E1 !important
+  &_3
+    background-color: #E2EEB7
+  &_4
+    background-color: #FFE0D5
+
+.bg_grad-01
+  position: relative
+  p, figure, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 15%
+    left: -36px
+    width: calc( 100% + 72px )
+    height: 50%
+    background: rgb(173,206,50);
+    background: linear-gradient(176deg, rgba(173,206,50,0.8996848739495799) 10%, rgba(255,255,255,1) 100%);
+    justify-content: space-between
+
+//CLASES REEMPLAZADAS//
+.slyder-a__bullets__item
+  background-color: #AABCA3
+.slyder-a__bullets__item--active 
+  background-color: $color-primario
+  border-color: $color-primario
