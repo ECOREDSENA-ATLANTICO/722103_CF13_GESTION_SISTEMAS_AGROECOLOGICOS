@@ -154,7 +154,7 @@
       img.d-none.d-md-flex(src='@/assets/curso/temas/tema2/14.svg', alt='Texto que describa la imagen')
     
     figure.mb-5
-      img.d-flex-d-md-none(src='@/assets/curso/temas/tema2/14-1.svg', alt='Texto que describa la imagen')
+      img.d-flex.d-md-none(src='@/assets/curso/temas/tema2/14-1.svg', alt='Texto que describa la imagen')
       
       
 
