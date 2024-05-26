@@ -19,7 +19,7 @@
     transform: translateY(0px)
 
 .banner-interno__fondo
-  background-image: url(../assets/curso/temas/banner_interno.svg) !important
+  background-image: url(../assets/curso/temas/banner_interno.png) !important
 
 //BACKGROUND Y COLORES DE CONTENIDOS//
 .bgr
@@ -34,6 +34,12 @@
     background-color: #FFA686
   &_6
     background-color: #F6F6F6
+  &_7
+    background-color: #F2F7DF
+  &_8
+    background-color: #DBEAB7 !important
+  &_9
+    background-color: #FFFAE3
 
 .bg_grad-01
   position: relative
@@ -44,11 +50,43 @@
     position: absolute
     margin: 0
     top: 15%
-    left: -36px
-    width: calc( 100% + 72px )
+    left: -48px
+    width: calc( 100% + 96px )
     height: 50%
-    background: rgb(173,206,50);
-    background: linear-gradient(176deg, rgba(173,206,50,0.8996848739495799) 10%, rgba(255,255,255,1) 100%);
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(227,239,199,1) 100%, rgba(255,255,255,1) 100%);
+    justify-content: space-between
+
+.bg_grad-02
+  position: relative
+  p, figure, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 23%
+    left: -48px
+    width: calc(100% + 96px)
+    height: 63%
+    background: rgb(255,255,255);
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(227,239,199,1) 100%, rgba(255,255,255,1) 100%);
+    justify-content: space-between
+
+.bg_grad-03
+  position: relative
+  p, figure, .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -48px
+    width: calc(100% + 96px)
+    height: 100%
+    background: rgb(255,255,255)
+    background: linear-gradient(0deg, rgba(255,255,255,1) 0%, rgba(255,251,236,1) 50%, rgba(255,255,255,1) 100%)
     justify-content: space-between
 
 //CLASES REEMPLAZADAS//
@@ -65,3 +103,21 @@
 .tabla-a thead
   background-color: $color-acento-contenido
   border: none
+.tabs-a.color-acento-botones .tabs-a__tab__selected
+  background-color: #ADCE32
+.tabs-a.color-acento-botones .tabs-a__tab__selected:before 
+    background-color: #ADCE32
+.tabs-a.color-acento-botones .tabs-a__tab:hover, .tabs-a.color-acento-botones .tabs-a__tab:active, .tabs-a.color-acento-botones .tabs-a__tab:focus 
+    background-color: #ADCE32
+.tarjeta-avatar-b .tarjeta 
+  width: 100%
+  margin-left: -4%
+  padding-left: 4%
+.tarjeta-avatar-b__img 
+  min-width: 10%;
+.img-infografica.color-secundario .img-infografica__item__dot:before
+  background-color: $color-acento-botones
+.img-infografica.color-secundario .img-infografica__item__dot:after
+  background-color: $color-acento-botones
+.img-infografica__item
+  width: 4.5%
