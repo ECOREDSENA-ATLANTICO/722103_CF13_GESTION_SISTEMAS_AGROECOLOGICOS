@@ -99,7 +99,8 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/prueba.pdf',
+        download:
+          'downloads/722103_Gestión de sistemas agroecológicos_CF13.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -129,11 +130,19 @@ export default {
       descarga: '/downloads/viewcontent.cgi.pdf',
     },
     {
+      tema: '2. Manejo ecológico de plagas y enfermedades (MEPE)',
+      referencia:
+        'ICA. (s.f.). Manejo fitosanitario del cultivo de hortalizas (Medidas para la temporada invernal). ',
+      tipo: 'Artículo',
+      descarga: '/downloads/cartilla-hortalizas-ICA.pdf',
+    },
+    {
       tema: '3.Tecnologías para la siembra',
       referencia:
         'García, E. & Flego, F. (2008). Agricultura de precisión. Revista Ciencia y Tecnología, 8, 99-116.',
       tipo: 'Artículo',
-      descarga: '/downloads/cartilla-hortalizas-ICA.pdf',
+      descarga:
+        '/downloads/Agricultura-de-Precision-Universidad-de-Palermo.pdf',
     },
     {
       tema: '3.Tecnologías para la siembra',
@@ -169,7 +178,7 @@ export default {
     {
       termino: 'Marco de plantación',
       significado:
-        'Distancia y distribución requerida entre las plantas a la hora de ser sembradas para su adecuado desarrollo y crecimiento',
+        'Distancia y distribución requerida entre las plantas a la hora de ser sembradas para su adecuado desarrollo y crecimiento.',
     },
     {
       termino: 'Plaga',
