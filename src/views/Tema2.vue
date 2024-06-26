@@ -140,7 +140,7 @@
       span Parámetros para determinar el umbral de intervención
     
     figure.mb-5
-      img(src='@/assets/curso/temas/tema2/13.svg', alt='Texto que describa la imagen')
+      img(src='@/assets/curso/temas/tema2/13.svg', alt='Parámetros umbral de intervención, la relación. Infestación perdida, es decir entre población de organismos nocivos y la pérdida de beneficios.')
       figcaption 	Nota. SENA (2022).
 
     p.mb-5 En conclusión, como lo establece Romero (2004), el modelo y prácticas de manejo ecológico de plagas y enfermedades debe basarse en el conocimiento de la plaga o enfermedad y su dinámica de población, así como los diferentes controles, vistos en la siguiente figura 4:

@@ -12,7 +12,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/temas/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/temas/sintesis.svg", alt="Muestra la síntesis del mapa conceptual de los diferentes tipos de siembre: Siembra directa Siembra indirecta En el proceso de siembra también es importante: El trazado, MEPE, control y tecnología.")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/Sintesis.pdf')" target="_blank")
           .anexo__icono

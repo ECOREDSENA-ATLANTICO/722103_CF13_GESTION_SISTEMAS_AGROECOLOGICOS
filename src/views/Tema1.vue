@@ -141,7 +141,7 @@
           span Tipos de sustratos
 
         figure
-          img.mb-3(src='@/assets/curso/temas/tema1/15.svg', alt='Texto que describa la imagen')
+          img.mb-3(src='@/assets/curso/temas/tema1/15.svg', alt='Muestra los diferentes tipos de sustratos: SINTÉTICOS: sustratos que han pasado por procesos industriales para su creación. Con la ventaja de brindar mayor protección frente a agentes patógenos. Además, del Gel, Espumas sintéticas. INORGÁNICOS: en este grupo se incluyen los que presentan partículas mayores a 2 mm de diámetro. Piedra pómez Grava, Roca volcánica Arena del río Arcillas ORGÁNICOS: en este grupo se encuentran productos de desecho recuperados de alguna actividad agropecuaria o industrial, o productos importados. Aserrín, Cascarilla de arroz, Cascarilla de café, Fibra de coco, Peat moss')
           figcaption 	Nota. SENA (2022).
     
     .row.justify-content-center.mb-5(data-aos="fade-left")
@@ -160,8 +160,8 @@
           span Propiedades del sustrato
         
         figure
-          img.mb-3.d-none.d-md-flex(data-aos="fade-up")(src='@/assets/curso/temas/tema1/17.svg', alt='Texto que describa la imagen')
-          img.mb-3.d-flex.d-md-none(src='@/assets/curso/temas/tema1/17-1.svg', alt='Texto que describa la imagen')
+          img.mb-3.d-none.d-md-flex(data-aos="fade-up")(src='@/assets/curso/temas/tema1/17.svg', alt='Muestra las propiedades del sustrato: Física: Buena aireación.  Elevada capacidad de retención de agua. Adecuada distribución del tamaño de las partículas. Buen soporte para el desarrollo. Baja densidad aparente. Elevada porosidad, que facilite el drenaje. Estructura estable, que impida la contracción o hinchazón del medio. Química: Baja o moderada capacidad de intercambio catiónica. Baja salinidad para evitar el estrés a las raíces por el efecto osmótico. Elevada capacidad tampón. Capacidad para mantener constante el pH de la solución nutritiva. Mínima velocidad de descomposición. -Suficiente nivel de nutrientes asimilables.Biológicas. Libe de partículas que afecten al normal desarrollo de los cultivos. Sin presencia de semillas de malas hierbas ni otros organismos para las plantas (hongos, nematodos, etc.). Fácil de desinfectar y estabilidad frente a la desinfección. Otros. Disponibilidad. Bajo coste. Fácil de preparar y mezclar. Resistencia a cambios externos físicos, químicos y ambientales. De manejo conocido.')
+          img.mb-3.d-flex.d-md-none(src='@/assets/curso/temas/tema1/17-1.svg', alt='Muestra las propiedades del sustrato: Física: Buena aireación.  Elevada capacidad de retención de agua. Adecuada distribución del tamaño de las partículas. Buen soporte para el desarrollo. Baja densidad aparente. Elevada porosidad, que facilite el drenaje. Estructura estable, que impida la contracción o hinchazón del medio. Química: Baja o moderada capacidad de intercambio catiónica. Baja salinidad para evitar el estrés a las raíces por el efecto osmótico. Elevada capacidad tampón. Capacidad para mantener constante el pH de la solución nutritiva. Mínima velocidad de descomposición. -Suficiente nivel de nutrientes asimilables.Biológicas. Libe de partículas que afecten al normal desarrollo de los cultivos. Sin presencia de semillas de malas hierbas ni otros organismos para las plantas (hongos, nematodos, etc.). Fácil de desinfectar y estabilidad frente a la desinfección. Otros. Disponibilidad. Bajo coste. Fácil de preparar y mezclar. Resistencia a cambios externos físicos, químicos y ambientales. De manejo conocido.')
           figcaption 	Nota. SENA (2022).
     
     separador
