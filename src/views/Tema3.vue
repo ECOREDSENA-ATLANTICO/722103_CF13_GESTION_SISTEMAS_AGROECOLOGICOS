@@ -16,7 +16,7 @@
           p.mb-0 Para realizar el proceso de siembra se requiere de maquinaria que se encargue de realizar procesos de remoción de tierra como tractores y en algunas ocasiones sembradoras, también equipos que faciliten la preparación del terreno; además, de herramientas que ayuden a los agricultores a realizar sus labores.
         .row.justify-content-center
           .col-lg-8.align-content-center.mb-3
-            p.mb-0 Pero, actualmente con la evolución en el avance de la tecnología se posibilita el desarrollo de la agricultura de precisión, que está enfocada a lograr una eficiencia superior en los cultivos para obtener mayor rentabilidad y calidad en los cultivos con menores costos de producción.
+            p.mb-0 Pero actualmente, con la evolución en el avance de la tecnología, se posibilita el desarrollo de la agricultura de precisión, que está enfocada a lograr una eficiencia superior en los cultivos para obtener mayor rentabilidad y calidad en los cultivos con menores costos de producción.
           .col-md-6.col-lg-4
             figure
               img(src='@/assets/curso/temas/tema3/2.svg', alt='Texto que describa la imagen')

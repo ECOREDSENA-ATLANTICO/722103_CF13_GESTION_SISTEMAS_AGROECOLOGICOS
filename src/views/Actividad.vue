@@ -11,7 +11,7 @@
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 Tipos de siembra de material vegetal
-        p.mb-4 #[b Identificar los tipos de siembra de material vegetal según criterio técnico y principios agroecológicos para la siembra de cultivos, de acuerdo con manual técnico y normativa.] 
+        p.mb-4 Identificar los tipos de siembra de material vegetal según criterio técnico y principios agroecológicos para la siembra de cultivos, de acuerdo con manual técnico y normativa.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

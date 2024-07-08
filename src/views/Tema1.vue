@@ -195,7 +195,7 @@
               figure
                 img(src='@/assets/curso/temas/tema1/19.svg', alt='Texto que describa la imagen')
             .tarjeta.bgr_6.p-3(x="33%" y="6%" numero="+")
-              p.mb-0 Cada planta va situada en el vértice de un cuadrado. Permite el paso de la maquinaria (tratamientos,etc) en dos direcciones perpendiculares, entre filas y entre plantas.
+              p.mb-0 Cada planta va situada en el vértice de un cuadrado. Permite el paso de la maquinaria (tratamientos, etc) en dos direcciones perpendiculares, entre filas y entre plantas.
             .tarjeta.bgr_6.p-3(x="69%" y="6%" numero="+")
               p.mb-0 Cada planta va situada en el vértice de un rectángulo, las plantas se colocan algo más cercanas entre sí, formando filas; estas filas están separadas entre ellas a una distancia mayor formando calles.
             .tarjeta.bgr_6.p-3(x="33%" y="94%" numero="+")

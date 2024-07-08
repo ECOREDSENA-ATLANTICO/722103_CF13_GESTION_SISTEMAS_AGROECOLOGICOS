@@ -19,7 +19,8 @@
 
     figure
       .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/gU2e3DH5yxI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+        iframe(width="560" height="315" src="https://www.youtube.com/embed/v_3GMRuUoNo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
+
 
     separador 
 
@@ -98,7 +99,7 @@
             h4 Manejo ecológico de plagas y enfermedades
             p Control etológico y Control genético
             h5 Control biológico
-            p Acción de enemigos naturales contra plagas y malas hierbas; sobre todo el uso de depredadores, insectos parásitos, hongos, bacterias, virus, nematodos etc.
+            p Acción de enemigos naturales contra plagas y malas hierbas; sobre todo el uso de depredadores, insectos parásitos, hongos, bacterias, virus, nematodos, etc.
           .col-lg-5
             figure
               img(src='@/assets/curso/temas/tema2/9.png', alt='Texto que describa la imagen')
@@ -140,7 +141,7 @@
       span Parámetros para determinar el umbral de intervención
     
     figure.mb-5
-      img(src='@/assets/curso/temas/tema2/13.svg', alt='Parámetros umbral de intervención, la relación. Infestación perdida, es decir entre población de organismos nocivos y la pérdida de beneficios.')
+      img(src='@/assets/curso/temas/tema2/13.svg', alt='Parámetros umbral de intervención, la relación. Infestación perdida, es decir entre población de organismos nocivos y la pérdida de beneficios. El precio del producto de la cosecha, expresado como precio desde la explotación agrícola. Los costos de la medida de control. Los beneficios potenciales, es decir, beneficios que se obtendrán si no interviene la influencia de la población de organismos nocivos. La eficacia de la medida de control.')
       figcaption 	Nota. SENA (2022).
 
     p.mb-5 En conclusión, como lo establece Romero (2004), el modelo y prácticas de manejo ecológico de plagas y enfermedades debe basarse en el conocimiento de la plaga o enfermedad y su dinámica de población, así como los diferentes controles, vistos en la siguiente figura 4:
